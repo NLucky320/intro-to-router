@@ -18,7 +18,7 @@ const User = ({ user }) => {
             <p>
              phone:  {user.phone} 
             </p>
-<Link to={`/user/${user.id}`}>Show Details</Link>
+
 <Link to={`/user/${user.id}`}><button>Click me</button></Link>
         </div>
     );
